@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FalidoFlix - Detalhes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para o botão de Home Page */
+        .home-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #c06060;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            background-color: #a04040;
+        }
+
+        .home-button img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div>
+            <a href="index.html" class="home-button">
+                <img src="imgs/images.png" alt="Home Icon">
+                Home Page
+            </a>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Detalhes da Série -->
+        <section id="detalhe-item">
+            <h2>Informações da Série</h2>
+            <div class="detalhe-conteudo">
+                <img id="detalhe-imagem" src="imgs/GOT trabalho serie.jpg" alt="Detalhe da Série">
+                <div class="descricao">
+                    <h3 id="detalhe-titulo">Game of Thrones</h3>
+                    <p id="detalhe-descricao">Uma luta épica pelo Trono de Ferro.</p>
+                    <p><strong>Data de Criação:</strong> <span id="detalhe-data">2011</span></p>
+                    <p><strong>Temporadas:</strong> <span id="detalhe-temporadas">8</span></p>
+                    <p><strong>Nota no IMDb:</strong> <span id="detalhe-imdb">9.2</span></p>
+                </div>
+            </div>
+        </section>
+
+        
+      
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 FalidoFlix. Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

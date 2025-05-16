@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FalidoFlix - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo para o botão de Home Page */
+        .home-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #cf0f0f;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            text-decoration: none;
+        }
+
+        .home-button:hover {
+            background-color: #5e2121;
+        }
+
+        .home-button img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div>
+            <a href="index.html" class="home-button">
+                <img src="imgs/images.png" alt="Home Icon">
+                Home Page
+            </a>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Itens em Destaque -->
+        <section id="destaque">
+            <button class="btn anterior">&lt;</button>
+            <div id="destaque-conteudo"></div>
+            <button class="btn proximo">&gt;</button>
+        </section>
+
+        <!-- Grupo de Cards -->
+        <section id="grupo-series">
+            <h2>Seriados</h2>
+            <div class="cards-container" id="cards-container"></div>
+        </section>
+
+        <!-- Criador do Site -->
+        <section id="criador">
+            <p><strong>Desenvolvido por:</strong> Raphael Henriques Oliveira Bicalho</p>
+            <p><strong>Curso:</strong> Sistemas de Informação</p>
+            <p><strong>Turma:</strong> Noite, 1º Período</p>
+            <p><strong>Contato:</strong> <a href="mailto:raphaelz.doom@gmail.com">raphaelz.doom@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 FalidoFlix. Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
